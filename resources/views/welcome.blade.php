@@ -57,10 +57,10 @@
     <!-- END NAVBAR -->
 
     <!-- HERO -->
-    <section class="hero" style="background-image: url('{{ asset('img/hero-bg.png') }}'); position: relative; background-repeat: no-repeat; ">
+    <section class="hero d-flex justify-content-center align-items-center flex-column text-center" style="height: 70vh">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center flex-column text-center">
+            <div class="row border ">
+                <div class="col">
                     <h1 class="mb-4">BRIGHT EXECELENT ENGLISH</h1>
                     <h3 class="mb-4">
                         Transform Your English Language Skills with BEE Balaraja!
@@ -69,9 +69,6 @@
                         Solusi Untuk Belajar Melatih Bahasa Inggrismu Lebih Lancar dan
                         Percaya Diri
                     </p>
-                </div>
-                <div class="col-6">
-                    <img src="img/header-image-sprinter-ranger.png" alt="" />
                 </div>
             </div>
         </div>
