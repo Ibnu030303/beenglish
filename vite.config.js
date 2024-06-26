@@ -7,8 +7,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
-                // Pastikan jalur ini sesuai dengan struktur direktori Anda
-                'vendor/filament/filament/resources/css/theme.css'
+                'resources/css/filament/admin/theme.css'
             ],
             refresh: true,
         }),
